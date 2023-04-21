@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
-  </head>
-  <body>
-  
-  </body>
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      <h1>Register</h1>
+    </div>
+    <div class="card-body">
+      <form id='login-form' class="form">
+
+        <div>
+          <label for="username">Username</label>
+          <input type="text" name="username" value="">
+          <small>Error</small>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" value="">
+          <small>Error</small>
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" value="">
+          <small>Error</small>
+        </div>
+
+        <div>
+          <label for="password-confirm">Password Confirm</label>
+          <input type="password" name="password-confirm" value="">
+          <small>Error</small>
+        </div>
+
+        <button type="submit" class="submit">Submit</button>
+
+      </form>
+
+    </div>
+  </div>
+
+</body>
+
 </html>
